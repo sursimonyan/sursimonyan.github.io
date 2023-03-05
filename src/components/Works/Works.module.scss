@@ -1,0 +1,129 @@
+@import "../../assets/styles/mixins.scss";
+
+.works {
+    padding-block-start: 6.25rem;
+
+    @include md {
+        padding-block-start: 3.25rem;
+    }
+
+    &__title {
+        margin-block-end: 4rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        color: var(--text-main-color);
+        text-transform: uppercase;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 720ms;
+        
+        &.title_transition {
+            opacity: 1;
+        }
+
+        @include md {
+            font-size: 2rem;
+            margin-block-end: 2rem;
+        }
+
+        @include sm {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__inner {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(12, 1fr);
+        transform: translateY(150%);
+        opacity: 0;
+        transition: transform 720ms 240ms, opacity 720ms 240ms;
+
+        &.inner_transition {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        @include md {
+            grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        }
+    }
+
+    &__item {
+        position: relative;
+        border-radius: .5rem;
+        overflow: hidden;
+        cursor: pointer;
+
+        &:nth-child(1),
+        &:nth-child(4n) {
+            grid-column: span 7;
+
+            @include md {
+                grid-column: auto;
+            }
+
+        }
+
+        &:nth-child(2),
+        &:nth-child(3n) {
+            grid-column: span 5;
+
+            @include md {
+                grid-column: auto;
+            }
+        }
+
+        &:hover {
+
+            .works__item_info {
+                transform: translateY(0);
+            }
+
+            .works__item_img {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    &__item_info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: .5rem;
+        width: 100%;
+        height: 7rem;
+        padding: 1rem 1.25rem;
+        background-color: var(--header-bg);
+        transform: translateY(7rem);
+        transition: transform 360ms;
+        z-index: 1;
+    }
+
+    &__item_title {
+        margin-block-end: .5rem;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--text-main-color);
+    }
+
+    &__item_links {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--text-main-color);
+        transition: color 240ms;
+
+        &:hover {
+            color: var(--text-main-color-active);
+        }
+    }
+
+    &__item_img {
+        object-fit: cover;
+        transform: scale(1);
+        transition: transform 360ms;
+    }
+}
