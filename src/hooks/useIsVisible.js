@@ -10,8 +10,8 @@ export function useIsVisible(scrollRef) {
         const windowHeight = window.innerHeight;
         const scrollPosition = window.scrollY;
 
-        console.log("scrollPosition + windowHeight - 400", scrollPosition + windowHeight - 400);
-        console.log("offset", offset);
+        // console.log("scrollPosition + windowHeight - 400", scrollPosition + windowHeight - 400);
+        // console.log("offset", offset);
 
         if (scrollPosition + windowHeight - 400 > offset) {
           setIsVisible(true);

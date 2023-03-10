@@ -26,24 +26,32 @@ export const Works = forwardRef((props, worksRef) => {
       >
         <div className={styles.works__item}>
           <div className={styles.works__item_info}>
-            <h4 className={styles.works__item_title}>Project 1</h4>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
+            <h4 className={styles.works__item_title}>Portfolio (React)</h4>
+            <a
+              href="https://github.com/Suren1990/React-portfolio"
+              className={styles.works__item_links}
+              rel="noreferrer"
+            >
               View on github
             </a>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
-              View project
-            </a>
+            <span className={styles.works__item_links} rel="noreferrer">
+              Here is the Project
+            </span>
           </div>
           <img
             src={images.Project1}
             className={styles.works__item_img}
-            alt="Project 1"
+            alt="Portfolio"
           />
         </div>
         <div className={styles.works__item}>
           <div className={styles.works__item_info}>
-            <h4 className={styles.works__item_title}>Project 1</h4>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
+            <h4 className={styles.works__item_title}>Tur (React)</h4>
+            <a
+              href="https://github.com/Suren1990/React-Tur-UI"
+              className={styles.works__item_links}
+              rel="noreferrer"
+            >
               View on github
             </a>
             <a href="/" className={styles.works__item_links} rel="noreferrer">
@@ -53,13 +61,17 @@ export const Works = forwardRef((props, worksRef) => {
           <img
             src={images.Project2}
             className={styles.works__item_img}
-            alt="Project 2"
+            alt="Tur"
           />
         </div>
         <div className={styles.works__item}>
           <div className={styles.works__item_info}>
-            <h4 className={styles.works__item_title}>Project 1</h4>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
+            <h4 className={styles.works__item_title}>Discover (React)</h4>
+            <a
+              href="https://github.com/Suren1990/React-Discover-UI"
+              className={styles.works__item_links}
+              rel="noreferrer"
+            >
               View on github
             </a>
             <a href="/" className={styles.works__item_links} rel="noreferrer">
@@ -67,15 +79,19 @@ export const Works = forwardRef((props, worksRef) => {
             </a>
           </div>
           <img
-            src={images.Project1}
+            src={images.Project3}
             className={styles.works__item_img}
-            alt="Project 1"
+            alt="Discover"
           />
         </div>
         <div className={styles.works__item}>
           <div className={styles.works__item_info}>
-            <h4 className={styles.works__item_title}>Project 1</h4>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
+            <h4 className={styles.works__item_title}>Haypost (Nextjs)</h4>
+            <a
+              href="https://github.com/Suren1990/NEXT-JS-Postcard-UI"
+              className={styles.works__item_links}
+              rel="noreferrer"
+            >
               View on github
             </a>
             <a href="/" className={styles.works__item_links} rel="noreferrer">
@@ -83,9 +99,49 @@ export const Works = forwardRef((props, worksRef) => {
             </a>
           </div>
           <img
-            src={images.Project2}
+            src={images.Project4}
             className={styles.works__item_img}
-            alt="Project 2"
+            alt="Haypost"
+          />
+        </div>
+        <div className={styles.works__item}>
+          <div className={styles.works__item_info}>
+            <h4 className={styles.works__item_title}>Simple project (React)</h4>
+            <a
+              href="https://github.com/Suren1990/React-Simple-UI"
+              className={styles.works__item_links}
+              rel="noreferrer"
+            >
+              View on github
+            </a>
+            <a href="/" className={styles.works__item_links} rel="noreferrer">
+              View project
+            </a>
+          </div>
+          <img
+            src={images.Project5}
+            className={styles.works__item_img}
+            alt="Simple project"
+          />
+        </div>
+        <div className={styles.works__item}>
+          <div className={styles.works__item_info}>
+            <h4 className={styles.works__item_title}>Meebur (HTML/CSS/JS)</h4>
+            <a
+              href="https://github.com/Suren1990/HTML-CSS-Meebur-UI"
+              className={styles.works__item_links}
+              rel="noreferrer"
+            >
+              View on github
+            </a>
+            <a href="/" className={styles.works__item_links} rel="noreferrer">
+              View project
+            </a>
+          </div>
+          <img
+            src={images.Project6}
+            className={styles.works__item_img}
+            alt="Simple project"
           />
         </div>
       </div>
