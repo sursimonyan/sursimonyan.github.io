@@ -10,7 +10,7 @@ export const Banner = forwardRef((props, bannerRef) => {
         <img src={images.Banner} alt="Banner" />
       </div>
       <h1 className={styles.banner__title}>
-        Hello, I'm <span className={styles.banner__title_name}>Name</span>.
+        Hello, I'm <span className={styles.banner__title_name}>Suren Simonyan</span>.
         <br />
         I'm a Front-End web developer.
       </h1>

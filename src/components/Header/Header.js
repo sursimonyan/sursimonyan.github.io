@@ -110,7 +110,7 @@ export const Header = ({ refsData }) => {
               </svg>
             </a>
           </div>
-          <a href="/rsume" className={styles.nav__resume}>
+          <a href="/cv.pdf" target="_blank" className={styles.nav__resume}>
             Resume
           </a>
         </nav>
