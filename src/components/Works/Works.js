@@ -46,15 +46,15 @@ export const Works = forwardRef((props, worksRef) => {
         </div>
         <div className={styles.works__item}>
           <div className={styles.works__item_info}>
-            <h4 className={styles.works__item_title}>Tur (React)</h4>
+            <h4 className={styles.works__item_title}>Tour (React)</h4>
             <a
-              href="https://github.com/Suren1990/React-Tur-UI"
+              href="https://github.com/Suren1990/tour"
               className={styles.works__item_links}
               rel="noreferrer"
             >
               View on github
             </a>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
+            <a href="/tour" className={styles.works__item_links} rel="noreferrer">
               View project
             </a>
           </div>
@@ -74,7 +74,7 @@ export const Works = forwardRef((props, worksRef) => {
             >
               View on github
             </a>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
+            <a href="/discover" className={styles.works__item_links} rel="noreferrer">
               View project
             </a>
           </div>
@@ -94,7 +94,7 @@ export const Works = forwardRef((props, worksRef) => {
             >
               View on github
             </a>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
+            <a href="/postcard" className={styles.works__item_links} rel="noreferrer">
               View project
             </a>
           </div>
@@ -114,7 +114,7 @@ export const Works = forwardRef((props, worksRef) => {
             >
               View on github
             </a>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
+            <a href="/squirrels-nft" className={styles.works__item_links} rel="noreferrer">
               View project
             </a>
           </div>
@@ -134,7 +134,7 @@ export const Works = forwardRef((props, worksRef) => {
             >
               View on github
             </a>
-            <a href="/" className={styles.works__item_links} rel="noreferrer">
+            <a href="/meebur" className={styles.works__item_links} rel="noreferrer">
               View project
             </a>
           </div>
@@ -142,6 +142,26 @@ export const Works = forwardRef((props, worksRef) => {
             src={images.Project6}
             className={styles.works__item_img}
             alt="Simple project"
+          />
+        </div>
+        <div className={styles.works__item}>
+          <div className={styles.works__item_info}>
+            <h4 className={styles.works__item_title}>Logotype (React)</h4>
+            <a
+              href="https://github.com/Suren1990/Logotype"
+              className={styles.works__item_links}
+              rel="noreferrer"
+            >
+              View on github
+            </a>
+            <a href="/logotype" className={styles.works__item_links} rel="noreferrer">
+              View project
+            </a>
+          </div>
+          <img
+            src={images.Project7}
+            className={styles.works__item_img}
+            alt="Logotype project"
           />
         </div>
       </div>
