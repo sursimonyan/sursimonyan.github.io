@@ -7,6 +7,7 @@ import Project4 from "./images/project4.jpg";
 import Project5 from "./images/project5.jpg";
 import Project6 from "./images/project6.jpg";
 import Project7 from "./images/project7.jpg";
+import Project8 from "./images/project8.jpg";
 import IconPhotoshop from "./icons/adobe-photoshop.svg";
 import IconXD from "./icons/adobe-xd.svg";
 import IconCSS from "./icons/css.svg";
@@ -26,6 +27,7 @@ export const images = {
   Project5,
   Project6,
   Project7,
+  Project8,
   IconPhotoshop,
   IconXD,
   IconCSS,

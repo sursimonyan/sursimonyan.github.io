@@ -75,6 +75,22 @@
             }
         }
 
+        &:nth-last-child(2) {
+            grid-column: span 5;
+
+            @include md {
+                grid-column: auto;
+            }
+        }
+
+        &:nth-last-child(1) {
+            grid-column: span 7;
+
+            @include md {
+                grid-column: auto;
+            }
+        }
+
         &:hover {
 
             .works__item_info {
