@@ -114,7 +114,7 @@ export const Works = forwardRef((props, worksRef) => {
             >
               View on github
             </a>
-            <a href="https://squirrels.suren-simonyan.info/" target="_blank" className={styles.works__item_links} rel="noreferrer">
+            <a href="http://squirrelsnft.suren-simonyan.info/" target="_blank" className={styles.works__item_links} rel="noreferrer">
               View project
             </a>
           </div>
