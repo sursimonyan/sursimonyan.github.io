@@ -108,7 +108,7 @@ export const Works = forwardRef((props, worksRef) => {
           <div className={styles.works__item_info}>
             <h4 className={styles.works__item_title}>Simple project (React)</h4>
             <a
-              href="https://github.com/Suren1990/React-Simple-UI"
+              href="https://github.com/Suren1990/squirrels"
               className={styles.works__item_links}
               rel="noreferrer"
             >
