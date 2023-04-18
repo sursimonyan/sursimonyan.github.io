@@ -48,7 +48,7 @@ export const Works = forwardRef((props, worksRef) => {
           <div className={styles.works__item_info}>
             <h4 className={styles.works__item_title}>Tour (React)</h4>
             <a
-              href="https://github.com/Suren1990/tour"
+              href="https://github.com/Suren1990/React-Tur-UI"
               className={styles.works__item_links}
               rel="noreferrer"
             >
