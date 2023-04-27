@@ -16,6 +16,7 @@ import IconHtml from "./icons/html.svg";
 import IconJavasscript from "./icons/javascript.svg";
 import IconReact from "./icons/react.svg";
 import IconRedux from "./icons/redux.svg";
+import Resume from "./images/cv.pdf";
 
 export const images = {
   Banner,
@@ -36,4 +37,5 @@ export const images = {
   IconJavasscript,
   IconReact,
   IconRedux,
+  Resume,
 };
