@@ -110,9 +110,7 @@ export const Header = ({ refsData }) => {
               </svg>
             </a>
           </div>
-          <a href={images.Resume} target="_blank" className={styles.nav__resume} rel="noreferrer">
-            Resume
-          </a>
+          <a href={images.Resume} target="_blank" className={styles.nav__resume} rel="noreferrer">Resume</a>
         </nav>
         <div
           className={cn(styles.header__menu, { [styles.active]: isOpenMenu })}
