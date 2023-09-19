@@ -10,7 +10,7 @@ export const About = forwardRef((props, aboutRef) => {
 
   return (
     <section className={styles.about} ref={aboutRef}>
-      <h2 className={cn(styles.about__title, { [styles.title_transition]: isOnDiv })}>About</h2>
+      <h2 className={cn(styles.about__title, { [styles.title_transition]: isOnDiv })}>Skills</h2>
       <div className={cn(styles.about__inner, "container", { [styles.inner_transition]: isOnDiv })}>
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
