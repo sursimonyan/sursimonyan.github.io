@@ -15,7 +15,6 @@ export const About = forwardRef((props, aboutRef) => {
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
             <h4 className={styles.about__item_title}>HTML/HTML5</h4>
-            <span className={styles.about__item_level}>85%</span>
           </div>
           <img
             className={styles.about__item_icon}
