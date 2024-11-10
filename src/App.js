@@ -2,9 +2,9 @@ import { useRef } from "react";
 import { About } from "./components/About/About";
 import { Banner } from "./components/Banner/Banner";
 import { Header } from "./components/Header/Header";
+import { Works } from "./components/Works/Works";
 
 import "./assets/styles/globals.scss";
-import { Works } from "./components/Works/Works";
 
 function App() {
   const bannerRef = useRef(null);

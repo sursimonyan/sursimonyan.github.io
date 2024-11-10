@@ -16,6 +16,8 @@ import IconHtml from "./icons/html.svg";
 import IconJavasscript from "./icons/javascript.svg";
 import IconReact from "./icons/react.svg";
 import IconRedux from "./icons/redux.svg";
+import IconVue from "./icons/vue.svg";
+import IconPinia from "./icons/pinia.svg";
 import Resume from "./images/cv.pdf";
 
 export const images = {
@@ -37,5 +39,7 @@ export const images = {
   IconJavasscript,
   IconReact,
   IconRedux,
+  IconVue,
+  IconPinia,
   Resume,
 };

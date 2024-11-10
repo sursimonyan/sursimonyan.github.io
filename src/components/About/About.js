@@ -26,7 +26,6 @@ export const About = forwardRef((props, aboutRef) => {
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
             <h4 className={styles.about__item_title}>CSS3</h4>
-            <span className={styles.about__item_level}>85%</span>
           </div>
           <img
             className={styles.about__item_icon}
@@ -37,7 +36,6 @@ export const About = forwardRef((props, aboutRef) => {
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
             <h4 className={styles.about__item_title}>JavaScript</h4>
-            <span className={styles.about__item_level}>70%</span>
           </div>
           <img
             className={styles.about__item_icon}
@@ -48,7 +46,6 @@ export const About = forwardRef((props, aboutRef) => {
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
             <h4 className={styles.about__item_title}>React</h4>
-            <span className={styles.about__item_level}>65%</span>
           </div>
           <img
             className={styles.about__item_icon}
@@ -59,7 +56,6 @@ export const About = forwardRef((props, aboutRef) => {
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
             <h4 className={styles.about__item_title}>Redux</h4>
-            <span className={styles.about__item_level}>50%</span>
           </div>
           <img
             className={styles.about__item_icon}
@@ -69,8 +65,27 @@ export const About = forwardRef((props, aboutRef) => {
         </div>
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
+            <h4 className={styles.about__item_title}>Vue</h4>
+          </div>
+          <img
+            className={styles.about__item_icon}
+            src={images.IconVue}
+            alt="vue icon"
+          />
+        </div>
+        <div className={styles.about__item}>
+          <div className={styles.about__item_info}>
+            <h4 className={styles.about__item_title}>Pinia</h4>
+          </div>
+          <img
+            className={styles.about__item_icon}
+            src={images.IconPinia}
+            alt="pinia icon"
+          />
+        </div>
+        <div className={styles.about__item}>
+          <div className={styles.about__item_info}>
             <h4 className={styles.about__item_title}>Figma</h4>
-            <span className={styles.about__item_level}>50%</span>
           </div>
           <img
             className={styles.about__item_icon}
@@ -81,7 +96,6 @@ export const About = forwardRef((props, aboutRef) => {
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
             <h4 className={styles.about__item_title}>Adobe xd</h4>
-            <span className={styles.about__item_level}>50%</span>
           </div>
           <img
             className={styles.about__item_icon}
@@ -92,7 +106,6 @@ export const About = forwardRef((props, aboutRef) => {
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
             <h4 className={styles.about__item_title}>Photoshop</h4>
-            <span className={styles.about__item_level}>30%</span>
           </div>
           <img
             className={styles.about__item_icon}
