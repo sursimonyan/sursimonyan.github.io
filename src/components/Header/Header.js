@@ -68,7 +68,7 @@ export const Header = ({ refsData }) => {
           </div>
           <div className={styles.nav__social}>
             <a
-              href="https://github.com/Suren1990"
+              href="https://github.com/sursimonyan"
               className={styles.nav__social_item}
               target="_blank"
               rel="noreferrer"
