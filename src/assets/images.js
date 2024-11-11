@@ -18,6 +18,9 @@ import IconReact from "./icons/react.svg";
 import IconRedux from "./icons/redux.svg";
 import IconVue from "./icons/vue.svg";
 import IconPinia from "./icons/pinia.svg";
+import IconSass from "./icons/sass.svg";
+import IconTypscript from "./icons/typescript.svg";
+import IconTailwind from "./icons/tailwind.svg";
 
 export const images = {
   Banner,
@@ -40,4 +43,7 @@ export const images = {
   IconRedux,
   IconVue,
   IconPinia,
+  IconSass,
+  IconTypscript,
+  IconTailwind,
 };

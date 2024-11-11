@@ -14,7 +14,7 @@ export const About = forwardRef((props, aboutRef) => {
       <div className={cn(styles.about__inner, "container", { [styles.inner_transition]: isOnDiv })}>
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
-            <h4 className={styles.about__item_title}>HTML/HTML5</h4>
+            <h4 className={styles.about__item_title}>HTML, HTML5, Web Accessibility</h4>
           </div>
           <img
             className={styles.about__item_icon}
@@ -24,7 +24,7 @@ export const About = forwardRef((props, aboutRef) => {
         </div>
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
-            <h4 className={styles.about__item_title}>CSS3</h4>
+            <h4 className={styles.about__item_title}>CSS3, Flexbox, Gridbox, Animation, Responsive Design, Cross Browsing</h4>
           </div>
           <img
             className={styles.about__item_icon}
@@ -34,12 +34,32 @@ export const About = forwardRef((props, aboutRef) => {
         </div>
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
-            <h4 className={styles.about__item_title}>JavaScript</h4>
+            <h4 className={styles.about__item_title}>Tailwind UI</h4>
+          </div>
+          <img
+            className={styles.about__item_icon}
+            src={images.IconTailwind}
+            alt="tailwind ui icon"
+          />
+        </div>
+        <div className={styles.about__item}>
+          <div className={styles.about__item_info}>
+            <h4 className={styles.about__item_title}>JavaScript, ES5, ES6</h4>
           </div>
           <img
             className={styles.about__item_icon}
             src={images.IconJavasscript}
             alt="javascript icon"
+          />
+        </div>
+        <div className={styles.about__item}>
+          <div className={styles.about__item_info}>
+            <h4 className={styles.about__item_title}>TypeScript</h4>
+          </div>
+          <img
+            className={styles.about__item_icon}
+            src={images.IconTypscript}
+            alt="typescript icon"
           />
         </div>
         <div className={styles.about__item}>
@@ -54,7 +74,7 @@ export const About = forwardRef((props, aboutRef) => {
         </div>
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
-            <h4 className={styles.about__item_title}>Redux</h4>
+            <h4 className={styles.about__item_title}>Redux Toolkit</h4>
           </div>
           <img
             className={styles.about__item_icon}
@@ -64,7 +84,7 @@ export const About = forwardRef((props, aboutRef) => {
         </div>
         <div className={styles.about__item}>
           <div className={styles.about__item_info}>
-            <h4 className={styles.about__item_title}>Vue</h4>
+            <h4 className={styles.about__item_title}>Vue, Composition API, TypeScript</h4>
           </div>
           <img
             className={styles.about__item_icon}
