@@ -1,6 +1,6 @@
 @import "../../assets/styles/mixins.scss";
 
-.works {
+.portfolio {
     padding-block-start: 6.25rem;
 
     @include md {
@@ -35,7 +35,7 @@
     &__inner {
         display: grid;
         gap: 2rem;
-        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(calc(50% - 1rem), 1fr));
         transform: translateY(150%);
         opacity: 0;
         transition: transform 720ms 240ms, opacity 720ms 240ms;
@@ -56,48 +56,13 @@
         overflow: hidden;
         cursor: pointer;
 
-        &:nth-child(1),
-        &:nth-child(1n + 4) {
-            grid-column: span 7;
-
-            @include md {
-                grid-column: auto;
-            }
-
-        }
-
-        &:nth-child(2),
-        &:nth-child(3n) {
-            grid-column: span 5;
-
-            @include md {
-                grid-column: auto;
-            }
-        }
-
-        &:nth-last-child(2) {
-            grid-column: span 5;
-
-            @include md {
-                grid-column: auto;
-            }
-        }
-
-        &:nth-last-child(1) {
-            grid-column: span 7;
-
-            @include md {
-                grid-column: auto;
-            }
-        }
-
         &:hover {
 
-            .works__item_info {
+            .portfolio__item_info {
                 transform: translateY(0);
             }
 
-            .works__item_img {
+            .portfolio__item_img {
                 transform: scale(1.05);
             }
         }

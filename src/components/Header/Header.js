@@ -59,11 +59,11 @@ export const Header = ({ refsData }) => {
             <span
               className={styles.nav__menu_item}
               onClick={() => {
-                scrollTo(refsData.worksRef);
+                scrollTo(refsData.portfolioRef);
                 closeMenu();
               }}
             >
-              Works
+              Portfolio
             </span>
           </div>
           <div className={styles.nav__social}>
