@@ -27,13 +27,14 @@ export const Portfolio = forwardRef((props, portfolioRef) => {
       >
         {protfolioData.map((item) => {
           return (
-            <div className={styles.portfolio__item}>
+            <div className={styles.portfolio__item} key={item.id}>
               <div className={styles.portfolio__item_info}>
                 <h4 className={styles.portfolio__item_title}>{item.title}</h4>
                 {item.link ? (
                   <a
                     href={item.link}
                     className={styles.portfolio__item_links}
+                    target="_blank"
                     rel="noreferrer"
                   >
                     View on github
