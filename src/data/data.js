@@ -93,7 +93,7 @@ export const portfolio = [
     id: 8,
     title: "Haypost (Nextjs, JavaScript, SCSS)",
     link: "https://github.com/sursimonyan/Postcard-nextjs",
-    mainImage: images.Project7,
+    mainImage: images.Project8,
     desktopImagas: [
       screenshots.Project8Desktop,
     ],
