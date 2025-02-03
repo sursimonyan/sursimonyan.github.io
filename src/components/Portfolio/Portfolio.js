@@ -33,14 +33,24 @@ export const Portfolio = forwardRef((props, portfolioRef) => {
                 {item.link ? (
                   <a
                     href={item.link}
-                    className={styles.portfolio__item_links}
+                    className={styles.portfolio__item_link}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View project
+                  </a>
+                ) : null}
+                {item.linkGit ? (
+                  <a
+                    href={item.link}
+                    className={styles.portfolio__item_git}
                     target="_blank"
                     rel="noreferrer"
                   >
                     View on github
                   </a>
                 ) : (
-                  <p className={styles.portfolio__item_links}>
+                  <p className={styles.portfolio__item_private}>
                     Project is private
                   </p>
                 )}

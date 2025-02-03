@@ -92,15 +92,35 @@
         color: var(--text-main-color);
     }
 
-    &__item_links {
-        font-size: 1rem;
+    &__item_link {
+        margin-block-end: 0.5rem;
+        font-size: 1.2rem;
         font-weight: 600;
         color: var(--text-main-color);
         transition: color 240ms;
+        cursor: pointer;
 
         &:hover {
             color: var(--text-main-color-active);
         }
+    }
+
+    &__item_git {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--text-main-color);
+        transition: color 240ms;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--text-main-color-active);
+        }
+    }
+
+    &__item_private {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: var(--text-main-private);
     }
 
     &__item_img {

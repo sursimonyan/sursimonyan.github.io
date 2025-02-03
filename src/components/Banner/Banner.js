@@ -9,11 +9,19 @@ export const Banner = forwardRef((props, bannerRef) => {
       <div className={styles.banner__image}>
         <img src={images.Banner} alt="Banner" />
       </div>
-      <h1 className={styles.banner__title}>
-        Hello, I'm <span className={styles.banner__title_name}>Suren Simonyan</span>.
-        <br />
-        I'm a Front-End web developer.
-      </h1>
+      <div className={styles.banner__inner}>
+        <h1 className={styles.banner__title}>
+          Hi, I'm Simonyan Suren
+          <span className={styles.banner__title_name}>
+            A Passionate Frontend Developer
+          </span>
+        </h1>
+        <p className={styles.banner__description}>
+          I create beautiful, interactive, and user-friendly websites with
+          modern technologies like HTML, CSS, JavaScript, React, Vue and more.
+          Let’s bring your ideas to life!
+        </p>
+      </div>
     </section>
   );
 });

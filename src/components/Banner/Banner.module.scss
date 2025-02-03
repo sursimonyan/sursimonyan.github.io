@@ -13,20 +13,23 @@
         background-color: var(--banner-bg);
     }
 
-    &__title {
+    &__inner {
         position: absolute;
         top: 50%;
         left: 50%;
-        max-width: 40rem;
+        max-width: 48rem;
         width: 100%;
         margin: auto;
+        color: var(--text-main-color);
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    &__title {
         padding: 1.25rem;
         font-size: 2.5rem;
         line-height: 1.25;
-        color: var(--text-main-color);
         text-align: center;
-        transform: translate(-50%, -50%);
-        z-index: 2;
 
         @include md {
             font-size: 2rem;
@@ -38,6 +41,21 @@
     }
 
     &__title_name {
+        display: block;
         color: var(--text-main-color-active);
+    }
+
+    &__description {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        text-align: center;
+
+        @include md {
+            font-size: 1.25rem;
+        }
+
+        @include sm {
+            font-size: 1rem;
+        }
     }
 }
