@@ -3,14 +3,14 @@ import { images } from "../assets/images";
 export const portfolio = [
   {
     id: 1,
-    title: "Roulette(Vue, TypeScript, Taileind, CSS Animation)",
+    title: "Roulette(Vue, TypeScript, Tailwind, CSS Animation)",
     linkGit: "",
     link: "https://sursimonyan.github.io/casino-wheel/",
     mainImage: images.Project1,
   },
   {
     id: 2,
-    title: "Roulette Lottery(Vue, TypeScript, Taileind, CSS Animation)",
+    title: "Roulette Lottery(Vue, TypeScript, Tailwind, CSS Animation)",
     linkGit: "",
     link: "https://sursimonyan.github.io/casino-jackpot",
     mainImage: images.Project2,
@@ -47,6 +47,7 @@ export const portfolio = [
     id: 7,
     title: "Meebur (HTML, CSS, JavaScript, Animation)",
     linkGit: "https://github.com/sursimonyan/HTML-CSS-Meebur-UI",
+    link: "https://sursimonyan.github.io/meebur",
     mainImage: images.Project7,
   },
   {

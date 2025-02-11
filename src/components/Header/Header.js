@@ -54,7 +54,7 @@ export const Header = ({ refsData }) => {
                 closeMenu();
               }}
             >
-              About
+              Skills
             </span>
             <span
               className={styles.nav__menu_item}

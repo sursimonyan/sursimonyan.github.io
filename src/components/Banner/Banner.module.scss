@@ -3,6 +3,10 @@
 .banner {
     position: relative;
 
+    @include sm {
+        height: calc(100dvh - 4rem);
+    }
+
     &:before {
         content: "";
         position: absolute;
@@ -20,13 +24,13 @@
         max-width: 48rem;
         width: 100%;
         margin: auto;
+        padding: 1.25rem;
         color: var(--text-main-color);
         transform: translate(-50%, -50%);
         z-index: 2;
     }
 
     &__title {
-        padding: 1.25rem;
         font-size: 2.5rem;
         line-height: 1.25;
         text-align: center;
