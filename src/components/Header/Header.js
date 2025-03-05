@@ -88,7 +88,7 @@ export const Header = ({ refsData }) => {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/suren-simonyan-300809bb/"
+              href="https://www.linkedin.com/in/sursimonyan/"
               className={styles.nav__social_item}
               target="_blank"
               rel="noreferrer"
