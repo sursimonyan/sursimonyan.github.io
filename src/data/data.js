@@ -66,6 +66,8 @@ export const portfolio = [
     id: 10,
     title: "Logotype (React, JavaScript, SCSS)",
     linkGit: "https://github.com/sursimonyan/logotype-posts",
+    link: "https://sursimonyan.github.io/logotype-posts",
+
     mainImage: images.Project10,
   },
 ];
