@@ -42,7 +42,7 @@ export const Portfolio = forwardRef((props, portfolioRef) => {
                 ) : null}
                 {item.linkGit ? (
                   <a
-                    href={item.link}
+                    href={item.linkGit}
                     className={styles.portfolio__item_git}
                     target="_blank"
                     rel="noreferrer"
